@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Korean Government SSL Adapter - 사용 예제
+Public Data API SSL Adapter - 사용 예제
 
-이 파일은 government_ssl_adapter의 다양한 사용 방법을 보여줍니다.
+이 파일은 public_data_api_ssl_adapter의 다양한 사용 방법을 보여줍니다.
 실제 API 호출을 하려면 유효한 API 키와 엔드포인트가 필요합니다.
 """
 

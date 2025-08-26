@@ -1,5 +1,5 @@
 """
-Korean Government SSL Adapter
+Public Data API SSL Adapter
 
 한국 공공데이터 API 서버의 구형 SSL 설정에 맞춘 어댑터
 SSL Labs 분석 결과를 기반으로 최적화된 SSL 컨텍스트를 제공합니다.
@@ -22,8 +22,8 @@ class PublicDataApiSSLAdapter(HTTPAdapter):
     - 인증서 체인 검증 문제
 
     Usage:
-        adapter = GovernmentSSLAdapter()
-        session = adapter.create_government_session()
+        adapter = PublicDataApiSSLAdapter()
+        session = adapter.create_public_data_api_session()
         response = session.get("https://apis.data.go.kr/your-endpoint")
     """
 
