@@ -1,4 +1,4 @@
-# Korean Government SSL Adapter
+# Public Data API SSL Adapter
 
 한국 공공데이터 API의 구형 SSL 설정과 호환되는 Python SSL 어댑터
 
